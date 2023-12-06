@@ -34,7 +34,7 @@ jobs:
 
           # Clone the source code
           sudo mkdir -m 777 /opt/openFHE && cd /opt/openFHE
-          git clone https://github.com/openfheorg/openfhe-development.git /opt/openFHE
+          git clone https://github.com/openfheorg/openfhe-development.git --branch v1.1.0 /opt/openFHE
 
           # Build
           export CC=/usr/bin/clang
